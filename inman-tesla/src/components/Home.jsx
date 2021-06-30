@@ -1,9 +1,12 @@
 import React from 'react';
 //components
 import Section from './Section';
+
+import '../styles/Home.css';
+
 const Home = ({ filterApplication }) => {
   return (
-    <div>
+    <div className='home-container'>
       <Section
         title='Model S'
         description='Order online for touchless delivery'

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/section.css';
+
 const Section = ({ title, bgImg, description, filterApplication }) => {
   return (
     <div
